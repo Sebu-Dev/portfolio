@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { HiOutlineChevronDoubleDown } from 'react-icons/hi';
-import { LANGUAGES } from '../constants';
+import { LANGUAGES } from '../types/languageConfig';
 
 const SCROLL_TO_CONTACT_TEXT = LANGUAGES.en.SCROLL_TO_CONTACT_TEXT;
 

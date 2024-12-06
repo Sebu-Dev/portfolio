@@ -1,7 +1,7 @@
+import { DE } from "../constants/de";
+import { EN } from "../constants/en";
+import type { LanguageKey } from "./types";
 
-import { DE } from "./de";
-import { EN } from "./en";
-import { LanguageKey } from "./textTypes.tsx";
 
 export const LANGUAGES = {
   en: EN,
