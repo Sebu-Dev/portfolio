@@ -16,7 +16,8 @@ export interface Experience {
 export interface Contact {
     address: string;
     phoneNo: string;
-    email: string;
+    emailPrivate: string;
+    emailWorking: string;
 }
 
 export type LanguageKey = "en" | "de";
