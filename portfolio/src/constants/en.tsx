@@ -1,10 +1,11 @@
-import type { Experience, Language, Project } from "./textTypes.tsx";
-import { IMAGES } from "./textTypes.tsx";
+import { IMAGES } from "../types/images";
+import type { Experience, Language, Project } from "../types/types";
+
 
 export const EN: Language = {
     HERO_CONTENT: `I am Florian Sebulke, a motivated junior software developer currently specializing in full stack development with a focus on Java and React. With my background as a mechatronics technician and experience in industrial automation, I bring a unique perspective to software development. My goal is to combine technical expertise with innovative solutions to deliver reliable and user-centered applications.`,
 
-    ABOUT_TEXT: `My name is Florian Sebulke, and I am a dedicated junior software developer transitioning from a technical career in mechatronics to the world of software engineering. During my time at VW, I gained valuable experience in process optimization and automation programming, which has laid a strong foundation for my current work in Java full stack development. I am particularly interested in creating efficient and scalable solutions using React, Spring Boot, and TypeScript. My curiosity for new technologies and passion for continuous learning drive me to overcome challenges and deliver high-quality results. When I'm not coding, I enjoy exploring smart home technologies, working on 3D printing projects, and diving into the latest innovations in virtual engineering.`,
+    ABOUT_TEXT: `My name is Florian Sebulke, and I am a dedicated junior software developer transitioning from a technical career in mechatronics to the world of software engineering. During my time at VW, I gained valuable experience in process optimization and automation programming, which has laid a strong foundation for my current work in Java full stack development. I am particularly interested in creating efficient and scalable solutions using React, Spring Boot, and TypeScript. My curiosity for new technologies and passion for continuous learning drive me to overcome challenges and deliver high-quality results. When I'm not coding, I enjoy exploring smart home technologies, working on 3D printing projects, or spending time outdoors, such as cycling.`,
 
     EXPERIENCES: [
         {
@@ -61,45 +62,33 @@ export const EN: Language = {
         {
             title: "Weather App",
             image: IMAGES.weatherAppImg,
-            description: `A weather application that provides real-time weather data based on user input. Built with React and integrates with a weather API to display forecasts, current weather, and more.`,
+            description: `A weather application that provides real-time weather data based on user input. Built with React and integrates with a weather API to display current weather.`,
             technologies: ["React", "TypeScript", "API Integration", "CSS", "Bootstrap", "Vite"],
         },
         {
             title: "Clothing E-Commerce Website",
-            image: IMAGES.project1Img,
-            description: `An e-commerce platform for clothing, featuring product listing, filters, shopping cart, and user authentication. Developed using React and TypeScript for the frontend and Spring Boot for the backend.`,
+            image: IMAGES.clothingProjectImg,
+            description: `An e-commerce platform for clothing, featuring product listing, filters, shopping cart, and user authentication. Developed using React and TypeScript for the frontend and Spring Boot for the backend. Focusing on the connection between the frontend and backend.`,
             technologies: ["React", "TypeScript", "Spring Boot", "SQL"],
         },
         {
-            title: "Dungeon Crawler Game",
-            image: IMAGES.project2Img,
-            description: `A text-based dungeon crawler game where players navigate through different levels, battling enemies and collecting items. Built with Java for the backend logic and user interaction in the console.`,
-            technologies: ["Java", "Console Application", "OOP"],
-        },
-        {
-            title: "Flag Games (Android App)",
-            image: IMAGES.project3Img,
-            description: `An Android app that allows users to guess flags from around the world. Users can test their knowledge of global flags with quizzes and challenges. Built with Java for Android development.`,
-            technologies: ["Java", "Android"],
-        },
-        {
             title: "Console-Based Shop (Java)",
-            image: IMAGES.project4Img,
+            image: IMAGES.consoleShopImg,
             description: `A console-based shop application that allows users to browse, add items to a cart, and complete a purchase. Developed in Java, this project focuses on creating a shopping system with basic CRUD operations and file handling.`,
             technologies: ["Java", "Console Application", "OOP", "File Handling"],
         },
         {
             title: "Java Quiz App (Android)",
-            image: IMAGES.project4Img,
-            description: `An Android quiz application where users can answer single-choice questions on Java topics to learn Java theory. Built with Java and SQLite for local data storage.`,
-            technologies: ["Java", "Android", "SQLite"],
+            image: IMAGES.quizAppImg,
+            description: `An Android quiz application where users can answer single-choice questions on Java topics to learn Java theory. Built with Androidstudio.`,
+            technologies: ["Java", "Android"],
         },
     ] as Project[],
 
     CONTACT: {
-        address: "Your Street, City, Postal Code, Country",
-        phoneNo: "+00 123 456 7890",
-        email: "yourname@example.com",
+        address: "Ilsede, 31246",
+        phoneNo: "01741604200",
+        email: "fsebulke@gmail.com",
     },
 
     TECHNOLOGIES_HEADLINE: "Technologies",
