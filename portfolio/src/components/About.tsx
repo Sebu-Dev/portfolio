@@ -1,13 +1,14 @@
 import { motion } from "motion/react";
 
 import aboutImg from "../assets/about.jpg";
-import { ABOUT_TEXT } from "../constants/index.tsx";
+import { useLanguage } from "../context/LanguageContext.tsx";
 export function About() {
+    const { translations } = useLanguage();
 
     return (
         <div className="border-b border-neutral-900 pb-4">
-            <h2 className=" my-20 text-center text-4xl "> About
-                <span className="text-neutral-500 "> Me</span>
+            <h2 className=" my-20 text-center text-4xl "> {translations.ABOUT_ME_HEADLINE[0]}
+                <span className="text-neutral-500 "> {translations.ABOUT_ME_HEADLINE[1]}</span>
             </h2>
             <div className="flex flex-wrap">
                 <motion.div
@@ -27,7 +28,7 @@ export function About() {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:justify-start ">
-                        <p className="my-2 max-w-xl py-6 leading-relaxed ">{ABOUT_TEXT}</p>
+                        <p className="my-2 max-w-xl py-6 leading-relaxed ">{translations.ABOUT_TEXT}</p>
                     </div>
                 </motion.div>
             </div>

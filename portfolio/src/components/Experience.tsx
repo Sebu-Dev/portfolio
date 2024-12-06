@@ -1,16 +1,18 @@
 import { motion } from "motion/react";
-import { EXPERIENCES } from "../constants/index.tsx";
+import { useLanguage } from "../context/LanguageContext.tsx";
 
 function Experience() {
+
+    const { translations } = useLanguage();
     return (
         <div className="border-b border-neutral-900 pb-4">
             <motion.h2
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className=" my-20 text-center text-4xl "> Experience
+                className=" my-20 text-center text-4xl "> {translations.EXPERIENCE_HEADLINE}
             </motion.h2>
-            <div > {EXPERIENCES.map((experience, index) => (
+            <div > {translations.EXPERIENCES.map((experience, index) => (
                 <div className="mb-8 flex flex-wrap lg:justify-center" key={index}>
                     <motion.div
                         whileInView={{ opacity: 1, x: 0 }}

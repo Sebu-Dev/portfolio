@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import profilPic from "../assets/FlorianProfilPic.jpeg";
-import { HERO_CONTENT } from "../constants/index.tsx";
+import { useLanguage } from "../context/LanguageContext.tsx";
 
 const container = (delay: number) => ({
     hidden: { x: -100, opacity: 0 },
@@ -11,6 +11,7 @@ const container = (delay: number) => ({
     },
 });
 const Hero = () => {
+    const { translations } = useLanguage();
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
             <div className="flex flex-wrap">
@@ -29,7 +30,7 @@ const Hero = () => {
                             variants={container(1)}
                             initial="hidden"
                             animate="visible" className="my-2 max-w-xl py-6  tracking-tighter leading-relaxed ">
-                            {HERO_CONTENT}
+                            {translations.HERO_CONTENT}
                         </motion.p>
                     </div>
                 </div>
