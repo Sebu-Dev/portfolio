@@ -44,7 +44,7 @@ function Technologies() {
       >
         <motion.div
           variants={iconVariants(2.5)}
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
           whileTap={{ scale: 0.9 }}
           initial="initial"
           animate="animate"
@@ -59,7 +59,7 @@ function Technologies() {
           </a>
         </motion.div>
         <motion.div
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
           whileTap={{ scale: 0.9 }}
           variants={iconVariants(3)}
           initial="initial"
@@ -75,7 +75,7 @@ function Technologies() {
           </a>
         </motion.div>
         <motion.div
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
           whileTap={{ scale: 0.9 }}
           variants={iconVariants(5)}
           initial="initial"
@@ -91,7 +91,7 @@ function Technologies() {
           </a>
         </motion.div>
         <motion.div
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
           whileTap={{ scale: 0.9 }}
           variants={iconVariants(2)}
           initial="initial"
@@ -107,7 +107,7 @@ function Technologies() {
           </a>
         </motion.div>
         <motion.div
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
           whileTap={{ scale: 0.9 }}
           variants={iconVariants(6)}
           initial="initial"
@@ -123,7 +123,7 @@ function Technologies() {
           </a>
         </motion.div>
         <motion.div
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
           whileTap={{ scale: 0.9 }}
           variants={iconVariants(4)}
           initial="initial"
@@ -139,7 +139,7 @@ function Technologies() {
           </a>
         </motion.div>
         <motion.div
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
           whileTap={{ scale: 0.9 }}
           variants={iconVariants(7)}
           initial="initial"
@@ -155,7 +155,7 @@ function Technologies() {
           </a>
         </motion.div>
         <motion.div
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
           whileTap={{ scale: 0.9 }}
           variants={iconVariants(3)}
           initial="initial"
