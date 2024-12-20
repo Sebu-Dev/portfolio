@@ -1,5 +1,5 @@
 import { IMAGES } from "../types/images";
-import type { Experience, Language, Project } from "../types/types";
+import type { Language } from "../types/types";
 
 export const EN: Language = {
   HERO_CONTENT: `I am Florian Sebulke, a motivated junior software developer currently specializing in full stack development with a focus on Java and React. With my background as a mechatronics technician and experience in industrial automation, I bring a unique perspective to software development. My goal is to combine technical expertise with innovative solutions to deliver reliable and user-centered applications.`,
@@ -53,10 +53,11 @@ export const EN: Language = {
       description: `Completed a comprehensive apprenticeship program as a mechatronics technician. Acquired skills in mechanical and electrical systems, troubleshooting, and maintenance of industrial machinery.`,
       technologies: ["Mechatronics", "Industrial Maintenance"],
     },
-  ] as Experience[],
+  ],
 
   PROJECTS: [
     {
+      visit: "Visit project",
       title: "Portfolio Website",
       image: IMAGES.portfolioProjectImg,
       description: `A personal portfolio website showcasing projects, skills, and contact information. The website was built using React, TypeScript, and styled with TailwindCSS to create a modern and responsive design.`,
@@ -69,7 +70,23 @@ export const EN: Language = {
       ],
     },
     {
+      visit: "Visit project",
+      title: "Fuel Cost Calculator Web",
+      image: IMAGES.fuelCostCalculatorProjectImg,
+      description: `An app for calculating travel costs, built with React, TypeScript, and TailwindCSS. I learned to write custom useStates, integrate linting tools, and deepen my TypeScript skills. Challenges in responsive design were solved by optimizing redundant code and reusing components. Framer Motion ensures smooth animations.`,
+      technologies: [
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Vite",
+        "Motion for React",
+        "eslint",
+      ],
+    },
+
+    {
       title: "Weather App",
+      visit: "Visit project",
       image: IMAGES.weatherAppImg,
       description: `A weather application that provides real-time weather data based on user input. Built with React and integrates with a weather API to display current weather.`,
       technologies: [
@@ -83,23 +100,26 @@ export const EN: Language = {
     },
     {
       title: "Clothing E-Commerce Website",
+      visit: "Visit project",
       image: IMAGES.clothingProjectImg,
       description: `An e-commerce platform for clothing, featuring product listing, filters, shopping cart, and user authentication. Developed using React and TypeScript for the frontend and Spring Boot for the backend. Focusing on the connection between the frontend and backend.`,
       technologies: ["React", "TypeScript", "Spring Boot", "SQL"],
     },
     {
       title: "Console-Based Shop (Java)",
+      visit: "Visit project",
       image: IMAGES.consoleShopImg,
       description: `A console-based shop application that allows users to browse, add items to a cart, and complete a purchase. Developed in Java, this project focuses on creating a shopping system with basic CRUD operations and file handling.`,
       technologies: ["Java", "Console Application", "OOP", "File Handling"],
     },
     {
       title: "Java Quiz App (Android)",
+      visit: "Visit project",
       image: IMAGES.quizAppImg,
       description: `An Android quiz application where users can answer single-choice questions on Java topics to learn Java theory. Built with Androidstudio.`,
       technologies: ["Java", "Android"],
     },
-  ] as Project[],
+  ],
 
   CONTACT: {
     address: "Ilsede, 31246",
