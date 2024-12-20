@@ -74,8 +74,6 @@ function Projects() {
                 <div className="mt-4">
                   <a
                     href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-bold text-cyan-500 hover:underline"
                   >
                     {project.visit}
