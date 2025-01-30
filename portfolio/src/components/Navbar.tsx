@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
-import { Logo } from "sebu-dev-logo";
+import { Logo } from "sebu-dev-react-lib";
 import LanguageButton from "./LanguageButton";
 
 function GithubLink() {
