@@ -1,4 +1,3 @@
-// context/LanguageContext.tsx
 import React, { createContext, useContext, useState, type PropsWithChildren } from 'react';
 import { LANGUAGES } from '../types/languageConfig';
 import type { Language, LanguageKey } from '../types/types';

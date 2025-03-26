@@ -1,12 +1,14 @@
 import { motion, type Variants } from "framer-motion";
 import { BsFiletypeSql } from "react-icons/bs";
-import { FaDatabase, FaJava } from "react-icons/fa";
+import { FaDatabase, FaJava, FaCloud } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import {
   SiBootstrap,
   SiSpring,
   SiTailwindcss,
   SiTypescript,
+  SiDocker,
+  SiJavascript,
 } from "react-icons/si";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -133,7 +135,7 @@ function Technologies() {
           <a
             href="https://tailwindcss.com/docs/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrerNoopener noreferrer"
           >
             <SiTailwindcss className="text-7xl text-sky-400" />
           </a>
@@ -168,6 +170,55 @@ function Technologies() {
             rel="noopener noreferrer"
           >
             <BsFiletypeSql className="text-7xl text-orange-600" />
+          </a>
+        </motion.div>
+        {/* Neue Icons hinzugefügt */}
+        <motion.div
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
+          whileTap={{ scale: 0.9 }}
+          variants={iconVariants(2.8)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <a
+            href="https://www.docker.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiDocker className="text-7xl text-blue-400" />
+          </a>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
+          whileTap={{ scale: 0.9 }}
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiJavascript className="text-7xl text-yellow-400" />
+          </a>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.1, borderColor: "grey" }}
+          whileTap={{ scale: 0.9 }}
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <a
+            href="https://azure.microsoft.com/de-de/get-started/azure-portal/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaCloud className="text-7xl text-gray-400" />
           </a>
         </motion.div>
       </motion.div>
