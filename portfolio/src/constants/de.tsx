@@ -166,7 +166,7 @@ export const DE: Language = {
     address: "Ilsede, 31246",
     phoneNo: "01741604200",
     emailPrivate: "fsebulke@gmail.com",
-    emailWorking: "Florian.Sebulke@Volkswagen.de (SE-A/32)",
+    emailWorking: "Florian.Sebulke@Volkswagen.de",
   },
   TECHNOLOGIES_HEADLINE: "Technologien",
   ABOUT_ME_HEADLINE: ["Über", "mich"],
