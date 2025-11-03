@@ -2,16 +2,23 @@ import { IMAGES } from "../types/images";
 import type { Language } from "../types/types";
 
 export const EN: Language = {
-  HERO_CONTENT: `I am Florian Sebulke, a motivated junior software developer currently specializing in full stack development with a focus on Java and React. With my background as a mechatronics technician and experience in industrial automation, I bring a unique perspective to software development. My goal is to combine technical expertise with innovative solutions to deliver reliable and user-centered applications.`,
+  HERO_CONTENT: `I am Florian Sebulke, a full stack software developer focusing on Java, Spring Boot, and React. Having completed the internal Faculty 73 training program at Volkswagen, I combine industrial automation experience from my mechatronics background with modern web and cloud development. I aim to deliver robust, scalable, and user-centered applications through clean architecture, maintainable code, and continuous improvement.`,
 
-  ABOUT_TEXT: `My name is Florian Sebulke, and I am a dedicated junior software developer transitioning from a technical career in mechatronics to the world of software engineering. During my time at VW, I gained valuable experience in process optimization and automation programming, which has laid a strong foundation for my current work in Java full stack development. I am particularly interested in creating efficient and scalable solutions using React, Spring Boot, and TypeScript. My curiosity for new technologies and passion for continuous learning drive me to overcome challenges and deliver high-quality results. When I'm not coding, I enjoy exploring smart home technologies, working on 3D printing projects, or spending time outdoors, such as cycling.`,
+  ABOUT_TEXT: `I am a full stack software developer who transitioned from mechatronics and industrial automation into professional software engineering. After completing Volkswagen's internal Faculty 73 program, I gained solid experience building web applications, REST APIs, and containerized services with Java, Spring Boot, React, TypeScript, and Docker. My prior work in production environments shaped my structured, reliability-focused approach. I now focus on modular architecture, clean code practices, and scalable backend–frontend integration. In my free time I explore smart home integration and 3D printing to experiment with new technologies.`,
 
   EXPERIENCES: [
     {
-      year: "2023 - Present",
-      role: "Junior Software Developer (Trainee)",
+      year: "2025 - Present",
+      role: "Application Systems Analyst (Developer)",
+      company: "Volkswagen AG - Group AM Sales - NADIN",
+      description: `Full stack development and maintenance of sales and after-sales applications. Contributing to a new vehicle ordering solution for importers and dealers using Angular and TypeScript. Implementing new features, refactoring legacy modules, fixing defects, and collaborating closely with business stakeholders to translate requirements into user-focused solutions.`,
+      technologies: ["Java", "Spring Boot", "Angular", "TypeScript", "Docker", "AWS"],
+    },
+    {
+      year: "2023 - 2025",
+      role: "Junior Software Developer (Faculty 73 Trainee)",
       company: "Volkswagen AG - Faculty 73",
-      description: `Currently undergoing training as a Full Stack Developer with a focus on Java and React. Gaining experience in developing web applications and RESTful APIs while working on backend structures and frontend components. Emphasizing modern technologies like Spring Boot and TypeScript.`,
+      description: `Completed a structured internal full stack training program focusing on Java, Spring Boot, React, and TypeScript. Built web applications and RESTful APIs, applied clean code principles, introduced containerization with Docker, and worked with CI/CD pipelines and basic cloud concepts.`,
       technologies: ["Java", "Spring Boot", "React", "TypeScript"],
     },
     {

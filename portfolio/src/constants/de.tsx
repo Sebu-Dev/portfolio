@@ -2,15 +2,29 @@ import { IMAGES } from "../types/images.ts";
 import type { Language } from "../types/types.ts";
 
 export const DE: Language = {
-  HERO_CONTENT: `Ich bin Florian Sebulke, ein motivierter Junior-Softwareentwickler, der sich derzeit auf Full-Stack-Entwicklung mit Fokus auf Java und React spezialisiert. Mit meinem Hintergrund als Mechatroniker und Erfahrung in der industriellen Automatisierung bringe ich eine einzigartige Perspektive in die Softwareentwicklung ein. Mein Ziel ist es, technische Expertise mit innovativen Lösungen zu kombinieren, um zuverlässige und benutzerzentrierte Anwendungen bereitzustellen.`,
+  HERO_CONTENT: `Ich bin Florian Sebulke, Full-Stack-Softwareentwickler mit Schwerpunkt auf Java, Spring Boot und React. Nach erfolgreichem Abschluss meiner internen Ausbildung (Fakultät 73) bei Volkswagen verbinde ich meine Erfahrung aus der industriellen Automatisierung mit moderner Web- und Cloud-Entwicklung. Mein Ziel: skalierbare, robuste und nutzerzentrierte Anwendungen durch saubere Architektur, wartbaren Code und kontinuierliche Verbesserung.`,
 
-  ABOUT_TEXT: `Ich bin ein Junior Full-Stack-Entwickler, der von der Mechatronik in die Softwareentwicklung gewechselt hat. Bei Volkswagen habe ich in der Batteriefertigung Prozesse optimiert und Automatisierungslösungen programmiert, was mir eine starke Grundlage für meine aktuelle Arbeit mit Java, React und TypeScript gibt. Ich bin spezialisiert auf die Entwicklung effizienter Webanwendungen mit Spring Boot, Docker und Cloud-Technologien. Meine Leidenschaft für kontinuierliches Lernen treibt mich an, neue Herausforderungen zu meistern – sei es durch den Einsatz moderner Tools oder die Arbeit an persönlichen Projekten wie Smart-Home-Integration und 3D-Druck.`,
+  ABOUT_TEXT: `Ich habe den Wechsel von der Mechatronik in die Softwareentwicklung vollzogen und meine Full-Stack-Ausbildung bei Volkswagen (Fakultät 73) abgeschlossen. Dabei habe ich Erfahrungen in der Entwicklung von Webanwendungen, REST-APIs und Containerisierung mit Spring Boot, Java, TypeScript und Docker gesammelt. Meine frühere Arbeit in der Batteriefertigung und Automatisierung hilft mir, strukturiert und prozessorientiert zu denken. Aktuell fokussiere ich mich auf performante, modular aufgebaute Anwendungen sowie saubere Architekturprinzipien. Persönliche Projekte (Smart Home, 3D-Druck) nutze ich, um neue Technologien praktisch zu erproben.`,
   EXPERIENCES: [
     {
-      year: "2023 - Jetzt",
+      year: "2025 - Jetzt",
+      role: "Systemanalytiker Anwendungssysteme (Entwickler)",
+      company: "Volkswagen AG - Group AM Sales - NADIN",
+      description: `Full-Stack-Entwicklung und Wartung von Anwendungen im Vertriebs- und After-Sales-Umfeld. Mitarbeit an einer Neufahrzeug-Bestellsoftware für Importeure und Händler mit Angular und TypeScript Frontend und Java-Backend. Umsetzung neuer Features, Refactoring, Bugfixing und technische Weiterentwicklung bestehender Module. Enge Zusammenarbeit mit Fachbereichen zur Anforderungsanalyse und nutzerorientierten Lösungsumsetzung.`,
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "TypeScript",
+        "Docker",
+        "AWS",
+      ],
+    },
+    {
+      year: "2023 - 2025",
       role: "Junior Softwareentwickler (Trainee)",
       company: "Volkswagen AG - Fakultät 73",
-      description: `Ausbildung zum Full-Stack-Entwickler mit Fokus auf Java, React und Cloud-Technologien. Entwicklung von Webanwendungen und RESTful APIs mit Spring Boot, TypeScript und Docker. Implementierung von CI/CD-Pipelines und Containerisierung von Anwendungen zur Verbesserung der Skalierbarkeit.`,
+      description: `Abgeschlossene strukturierte Full-Stack-Ausbildung mit Fokus auf Java, Spring Boot, React und Cloud-Grundlagen. Entwicklung von Webanwendungen und RESTful APIs, Aufbau von CI/CD-Pipelines, Containerisierung mit Docker sowie Anwendung von Clean-Code- und Architekturprinzipien.`,
       technologies: [
         "Java",
         "Spring Boot",
